@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.2s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Europa", sans-serif;
+	overflow-x: hidden;
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: "Europa-Regular";
+	src: url("./assets/fonts/Europa-Regular.ttf");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Europa-Bold";
+	src: url("./assets/fonts/Europa-Bold.ttf");
+	font-style: normal;
+	font-weight: 700;
+}
+
+:root {
+	--primaryColor: #1a2578;
+	--secondaryColor: #484c63;
+	--btn-span: #bf0830;
+	--nav-link: #646a89;
+	--footer-bg: #0d123c;
+	--defaultColor: #ffffff;
+}
+
+.container {
+	width: 100%;
+	max-width: 1180px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	object-fit: cover;
+}
+
+.btn {
+	font-size: 16px;
+	color: var(--defaultColor);
+	line-height: 1.5;
+	font-weight: 700;
+	background-color: var(--btn-span);
+	letter-spacing: 0.0025em;
+	border-radius: 6px;
+	padding: 14px 32px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.btn-outline {
+	font-size: 16px;
+	color: var(--btn-span);
+	line-height: 1.5;
+	font-weight: 700;
+	background-color: var(--defaultColor);
+	border: 1px solid var(--btn-span);
+	border-radius: 6px;
+	padding: 14px 32px;
+	cursor: pointer;
+	white-space: nowrap;
 }
