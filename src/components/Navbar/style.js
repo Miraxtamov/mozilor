@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Nav = styled.div`
 	display: flex;
@@ -17,6 +17,7 @@ export const Nav = styled.div`
 	.nav__menu--open {
 		margin-left: auto;
 		font-size: 24px;
+		color: var(--btn-span);
 		display: none;
 		cursor: pointer;
 		flex-shrink: 0;
@@ -73,6 +74,7 @@ export const Navigation = styled.div`
 			padding-top: 50px;
 			transform: translateX(-100%);
 			background-color: #000000;
+			z-index: 99;
 		}
 
 		&.open {
@@ -86,6 +88,7 @@ export const Navigation = styled.div`
 			padding-top: 50px;
 			transform: translateX(0);
 			background-color: #000000;
+			z-index: 99;
 		}
 
 		.nav__menu--close {

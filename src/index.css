@@ -79,3 +79,13 @@ img {
 	cursor: pointer;
 	white-space: nowrap;
 }
+
+.btn-outline:hover {
+	background-color: var(--btn-span);
+	color: var(--defaultColor);
+}
+
+.btn:active,
+.btn-outline:active {
+	transform: scale(0.98);
+}
