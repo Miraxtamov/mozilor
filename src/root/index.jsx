@@ -9,7 +9,7 @@ const Root = () => {
 	return (
 		<Routes>
 			<Route element={<Navbar />}>
-				<Route path="/" element={<Navigate to={"/products"} />} />
+				<Route path="/" element={<Home />} />
 				{navbar?.map((value) => {
 					return (
 						<Route

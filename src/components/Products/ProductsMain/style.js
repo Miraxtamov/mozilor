@@ -49,12 +49,12 @@ ProductsMainContainer.InfoTitle = styled.div`
 	}
 
 	@media (max-width: 680px) {
-		text-align: 34px;
+		font-size: 34px;
 		margin-bottom: 30px;
 	}
 
 	@media (max-width: 500px) {
-		text-align: 30px;
+		font-size: 30px;
 	}
 
 	@media (max-width: 400px) {
