@@ -39,6 +39,7 @@ body {
 	--nav-link: #646a89;
 	--footer-bg: #0d123c;
 	--defaultColor: #ffffff;
+	--desc: #3a3a3c;
 }
 
 .container {
@@ -61,6 +62,10 @@ img {
 	object-fit: cover;
 }
 
+span {
+	color: var(--btn-span);
+}
+
 .btn {
 	font-size: 16px;
 	color: var(--defaultColor);
@@ -75,6 +80,7 @@ img {
 }
 
 .btn-outline {
+	width: fit-content;
 	font-size: 16px;
 	color: var(--btn-span);
 	line-height: 1.5;
@@ -95,4 +101,15 @@ img {
 .btn:active,
 .btn-outline:active {
 	transform: scale(0.98);
+}
+
+.btn,
+.btn-outline {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Opera and Firefox */
 }
