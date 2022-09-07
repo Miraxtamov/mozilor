@@ -28,8 +28,6 @@ export const Nav = styled.div`
 	}
 `;
 
-Nav.Logo = styled.div``;
-
 Nav.LogoLink = styled(NavLink)`
 	.nav__img {
 		@media (max-width: 970px) {

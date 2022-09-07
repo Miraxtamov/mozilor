@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Generic from "../pages/Generic";
 import { navbar } from "../utils/navbar";
 import DotLoader from "react-spinners/DotLoader";
+import Footer from "../components/Footer";
 
 const Root = () => {
 	const [loading, setLoading] = useState(false);
@@ -13,7 +14,7 @@ const Root = () => {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 1500);
+		}, 0);
 	}, []);
 
 	return (
@@ -39,6 +40,7 @@ const Root = () => {
 					</Route>
 				</Routes>
 			)}
+			<Footer />
 		</>
 	);
 };

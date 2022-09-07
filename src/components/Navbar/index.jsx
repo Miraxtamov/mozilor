@@ -12,11 +12,9 @@ const Navbar = () => {
 		<>
 			<div className="container">
 				<Nav>
-					{/* <Nav.Logo> */}
 					<Nav.LogoLink to="/">
 						<img className="nav__img" src={logo} alt="logo" />
 					</Nav.LogoLink>
-					{/* </Nav.Logo> */}
 					<Navigation className={`navigation__default ${isOpen ? "open" : ""}`}>
 						<Navigation.NavList>
 							{navbar?.map((value) => {
