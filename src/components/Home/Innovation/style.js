@@ -25,7 +25,6 @@ export const InnovationContainer = styled.div`
 
 InnovationContainer.Title = styled.div`
 	font-size: 44px;
-	font-style: normal;
 	font-weight: 700;
 	line-height: 130%;
 	color: var(--primaryColor);
@@ -47,7 +46,7 @@ InnovationContainer.Title = styled.div`
 
 InnovationContainer.Desc = styled.div`
 	font-size: 16px;
-	font-style: normal;
+
 	font-weight: 400;
 	color: var(--secondaryColor);
 	line-height: 169%;

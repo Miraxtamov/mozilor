@@ -29,7 +29,6 @@ HomeBuildSecContainer.Info = styled.div`
 
 HomeBuildSecContainer.InfoTitle = styled.div`
 	font-size: 44px;
-	font-style: normal;
 	font-weight: 700;
 	color: var(--primaryColor);
 	line-height: 130%;
@@ -49,7 +48,6 @@ HomeBuildSecContainer.InfoTitle = styled.div`
 `;
 
 HomeBuildSecContainer.InfoDescription = styled.div`
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 169%;

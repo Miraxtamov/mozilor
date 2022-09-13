@@ -44,7 +44,6 @@ FooterContainer.LogoLink = styled(NavLink)`
 FooterContainer.FooterInfo = styled.div`
 	font-size: 16px;
 	font-weight: 400;
-	font-style: normal;
 	line-height: 169%;
 	color: var(--defaultColor);
 
@@ -148,7 +147,6 @@ export const FooterBottom = styled.div`
 `;
 
 FooterBottom.CopyRight = styled.div`
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 130%;
@@ -164,7 +162,6 @@ FooterBottom.CopyRight = styled.div`
 `;
 
 FooterBottom.Terms = styled.div`
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 130%;

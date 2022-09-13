@@ -9,7 +9,6 @@ export const ProductsBuildContainer = styled.div`
 
 ProductsBuildContainer.Title = styled.div`
 	width: 65%;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 44px;
 	line-height: 141%;
@@ -43,7 +42,6 @@ ProductsBuildContainer.Title = styled.div`
 `;
 
 ProductsBuildContainer.Desc = styled.div`
-	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 169%;

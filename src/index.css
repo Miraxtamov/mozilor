@@ -21,14 +21,14 @@ body {
 @font-face {
 	font-family: "Europa-Regular";
 	src: url("./assets/fonts/Europa-Regular.ttf");
-	font-style: normal;
+
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: "Europa-Bold";
 	src: url("./assets/fonts/Europa-Bold.ttf");
-	font-style: normal;
+
 	font-weight: 700;
 }
 
@@ -40,6 +40,7 @@ body {
 	--footer-bg: #0d123c;
 	--defaultColor: #ffffff;
 	--desc: #3a3a3c;
+	--form-label: #8f90a6;
 }
 
 .container {

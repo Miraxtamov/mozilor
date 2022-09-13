@@ -37,7 +37,6 @@ ProductsCookieyesContainer.InfoImg = styled.img`
 
 ProductsCookieyesContainer.InfoDesc = styled.div`
 	font-size: 16px;
-	font-style: normal;
 	font-weight: 400;
 	line-height: 169%;
 	color: var(--secondaryColor);
