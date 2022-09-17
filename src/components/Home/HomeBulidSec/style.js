@@ -6,6 +6,7 @@ export const HomeBuildSecContainer = styled.div`
 
 	@media (max-width: 900px) {
 		flex-direction: column;
+		align-items: flex-start;
 	}
 `;
 
@@ -80,6 +81,11 @@ HomeBuildSecContainer.ImgWrapper = styled.div`
 		img {
 			width: 500px;
 		}
+	}
+
+	@media (max-width: 900px) {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@media (max-width: 990px) {

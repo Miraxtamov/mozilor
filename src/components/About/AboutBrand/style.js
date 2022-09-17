@@ -28,6 +28,10 @@ AboutBrandContainer.Title = styled.div`
 AboutBrandContainer.BrandCard = styled.div`
 	width: 100%;
 	margin-bottom: 140px;
+
+	@media (max-width: 960px) {
+		margin-bottom: 100px;
+	}
 `;
 
 export const AboutBrandInfoCards = styled.div`
@@ -38,6 +42,11 @@ export const AboutBrandInfoCards = styled.div`
 
 	@media (max-width: 960px) {
 		gap: 22px;
+	}
+
+	@media (max-width: 645px) {
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 100px;
 	}
 
 	@media (max-width: 400px) {

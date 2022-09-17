@@ -10,6 +10,12 @@ export const AboutHomeContainer = styled.div`
 
 	@media (max-width: 800px) {
 		flex-direction: column;
+		padding-top: 50px;
+		padding-bottom: 75px;
+	}
+
+	@media (max-width: 460px) {
+		padding-top: 45px;
 	}
 `;
 
@@ -46,13 +52,9 @@ AboutHomeContainer.InfoTitle = styled.div`
 
 AboutHomeContainer.Desc = styled.div`
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 129%;
 	color: var(--secondaryColor);
-
-	@media (max-width: 960px) {
-		font-size: 20px;
-	}
 
 	@media (max-width: 800px) {
 		margin-bottom: 60px;

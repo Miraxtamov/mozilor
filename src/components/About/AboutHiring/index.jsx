@@ -1,18 +1,11 @@
 import React from "react";
 import aboutHiring from "../../../assets/icons/about-hiring-arrow-next.svg";
-import aboutHiringImg from "../../../assets/icons/about-hiring-img.svg"
+import aboutHiringImg from "../../../assets/icons/about-hiring-img.svg";
 import { AboutHiringContainer } from "./style";
 
 const AboutHiring = () => {
 	return (
-		<div
-			style={{
-				background:
-					"linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%)",
-				paddingTop: "120px",
-				paddingBottom: "120px",
-			}}
-		>
+		<div className="about-where-wrapper">
 			<div className="container">
 				<AboutHiringContainer>
 					<AboutHiringContainer.Info>
@@ -31,9 +24,9 @@ const AboutHiring = () => {
 							alt="about hiring"
 						/>
 					</AboutHiringContainer.Info>
-          <AboutHiringContainer.Img>
-            <img src={aboutHiringImg} alt="About hiring img" />
-          </AboutHiringContainer.Img>
+					<AboutHiringContainer.Img>
+						<img src={aboutHiringImg} alt="About hiring img" />
+					</AboutHiringContainer.Img>
 				</AboutHiringContainer>
 			</div>
 		</div>

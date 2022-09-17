@@ -4,14 +4,7 @@ import { AboutWhoWeAreContainer } from "./style";
 
 const AboutWhoWeAre = () => {
 	return (
-		<div
-			style={{
-				background:
-					"linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%)",
-				paddingTop: "70px",
-				paddingBottom: "140px",
-			}}
-		>
+		<div className="about-where-wrapper">
 			<div className="container">
 				<AboutWhoWeAreContainer>
 					<AboutWhoWeAreContainer.Info>

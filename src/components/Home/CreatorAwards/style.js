@@ -23,7 +23,7 @@ CreatorAwardsContainer.Info = styled.div`
 	}
 
 	@media (max-width: 920px) {
-		margin-right: 0;
+		margin-right: auto;
 	}
 `;
 
@@ -36,7 +36,6 @@ CreatorAwardsContainer.Title = styled.div`
 
 	@media (max-width: 800px) {
 		font-size: 36px;
-		text-align: center;
 	}
 
 	@media (max-width: 680px) {
@@ -62,10 +61,6 @@ CreatorAwardsContainer.Desc = styled.div`
 		margin-bottom: 80px;
 	}
 
-	@media (max-width: 800px) {
-		text-align: center;
-	}
-
 	@media (max-width: 500px) {
 		margin-bottom: 50px;
 	}
@@ -82,6 +77,11 @@ CreatorAwardsContainer.Img = styled.img`
 
 	@media (max-width: 950px) {
 		width: 450px;
+	}
+
+	@media (max-width: 920px) {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@media (max-width: 680px) {

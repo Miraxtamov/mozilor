@@ -53,10 +53,6 @@ HomeMainContainer.Title = styled.div`
 		margin-bottom: 20px;
 	}
 
-	@media (max-width: 800px) {
-		text-align: center;
-	}
-
 	@media (max-width: 680px) {
 		font-size: 34px;
 		margin-bottom: 30px;
@@ -72,7 +68,7 @@ HomeMainContainer.Title = styled.div`
 	}
 
 	@media (max-width: 350px) {
-		margin-bottom: 26px;
+		margin-bottom: 16px;
 		font-size: 22px;
 	}
 `;
@@ -87,10 +83,6 @@ HomeMainContainer.Description = styled.div`
 	@media (max-width: 950px) {
 		font-size: 20px;
 		margin-bottom: 32px;
-	}
-
-	@media (max-width: 800px) {
-		text-align: center;
 	}
 
 	@media (max-width: 680px) {
@@ -109,11 +101,6 @@ HomeMainContainer.Description = styled.div`
 HomeMainContainer.BtnWrapper = styled.div`
 	display: flex;
 	align-items: center;
-
-	@media (max-width: 800px) {
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 	@media (max-width: 330px) {
 		flex-direction: column;

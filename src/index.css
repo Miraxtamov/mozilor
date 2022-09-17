@@ -121,3 +121,25 @@ span {
 	user-select: none; /* Non-prefixed version, currently
                         supported by Chrome, Opera and Firefox */
 }
+
+.about-where-wrapper {
+	background: linear-gradient(
+		268.52deg,
+		#e3e7f6 -52.27%,
+		rgba(227, 231, 246, 0) 138.23%
+	);
+	padding-top: 70px;
+	padding-bottom: 140px;
+}
+
+@media (max-width: 1000px) {
+	.about-where-wrapper {
+		padding-bottom: 90px;
+	}
+}
+
+@media (max-width: 735px) {
+	.about-where-wrapper {
+		padding-bottom: 50px;
+	}
+}
