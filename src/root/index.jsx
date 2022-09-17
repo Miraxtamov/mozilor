@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../components/Home";
 import Navbar from "../components/Navbar";
-import Generic from "../pages/Generic";
 import { navbar } from "../utils/navbar";
 import DotLoader from "react-spinners/DotLoader";
 import Footer from "../components/Footer";
+import Career from "../components/Career";
 
 const Root = () => {
 	const [loading, setLoading] = useState(false);
@@ -36,7 +36,7 @@ const Root = () => {
 								/>
 							);
 						})}
-						<Route path="/career" element={<Generic />} />
+						<Route path="/career" element={<Career />} />
 					</Route>
 				</Routes>
 			)}
