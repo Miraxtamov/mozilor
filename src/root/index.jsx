@@ -14,7 +14,7 @@ const Root = () => {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 0);
+		}, 1500);
 	}, []);
 
 	return (
