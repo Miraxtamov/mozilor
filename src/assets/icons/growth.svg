@@ -1,10 +1,1 @@
-<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.3741 31.4629H2V41.1563H15.3741V31.4629Z" stroke="#1A2578" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28.8706 25.9414H15.374V41.1559H28.8706V25.9414Z" stroke="#1A2578" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M41.9999 19.7847H28.8707V41.1558H41.9999V19.7847Z" stroke="#1A2578" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24.7665 6.23535H7.75464V19.7866H24.7665V6.23535Z" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.75464 6.23535V10.1313C7.75464 10.647 7.95952 11.1416 8.32422 11.5063C8.68891 11.871 9.18353 12.0759 9.69928 12.0759H22.8235C23.339 12.0755 23.8332 11.8704 24.1975 11.5057C24.5618 11.1411 24.7665 10.6467 24.7665 10.1313V6.23535H7.75464Z" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.5967 14.1775V12.0757" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19.0797 14.1775V12.0757" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.7759 6.2353V2.95508H19.7964V6.2353" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.374 31.463H2v9.693h13.374v-9.693ZM28.87 25.941H15.375v15.215h13.497V25.94Z" stroke="#1A2578" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 19.785H28.87v21.37H42v-21.37Z" stroke="#1A2578" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.767 6.235H7.755v13.552h17.012V6.235Z" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.755 6.235v3.896a1.945 1.945 0 0 0 1.944 1.945h13.124a1.944 1.944 0 0 0 1.944-1.945V6.235H7.755ZM13.597 14.178v-2.102M19.08 14.178v-2.102M12.776 6.235v-3.28h7.02v3.28" stroke="#BF0830" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>

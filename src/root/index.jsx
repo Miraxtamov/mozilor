@@ -6,6 +6,7 @@ import { navbar } from "../utils/navbar";
 import DotLoader from "react-spinners/DotLoader";
 import Footer from "../components/Footer";
 import Career from "../components/Career";
+import NotFound from "../pages/NotFound";
 
 const Root = () => {
 	const [loading, setLoading] = useState(false);
@@ -38,6 +39,7 @@ const Root = () => {
 						})}
 						<Route path="/career" element={<Career />} />
 					</Route>
+					<Route path="*" element={<NotFound />} />
 				</Routes>
 			)}
 			<Footer />

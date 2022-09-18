@@ -20,14 +20,14 @@ body {
 
 @font-face {
 	font-family: "Europa-Regular";
-	src: url("./assets/fonts/Europa-Regular.ttf");
+	src: url("./assets/fonts/Europa-Regular.woff");
 
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: "Europa-Bold";
-	src: url("./assets/fonts/Europa-Bold.ttf");
+	src: url("./assets/fonts/Europa-Bold.woff");
 
 	font-weight: 700;
 }
